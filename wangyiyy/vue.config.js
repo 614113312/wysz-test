@@ -2,7 +2,7 @@ const path = require('path');
 const px2rem = require('postcss-px2rem')
 // 配置postcs-px2rem
 const postcss = px2rem({
-  remUnit: 75  //基准大小 baseSize，需要和rem.js中单位rem值占比一样相同
+  remUnit: 70  //基准大小 baseSize，需要和rem.js中单位rem值占比一样相同
 })
 function resolve (dir) {
     return path.join(__dirname, dir)

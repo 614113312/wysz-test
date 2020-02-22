@@ -27,7 +27,7 @@ export default[
     },
     {
         path: '/',
-        redirect: '/firstview'
+        redirect: '/classification'
     }
 
 ]
